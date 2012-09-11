@@ -1,0 +1,19 @@
+{
+  "name": "choc-repl",
+  "version": "1.0.0",
+  "description": "Adds a Node.js REPL to Chocolat",
+  "main": "init.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drudge/choc-repl.chocmixin.git"
+  },
+  "keywords": [
+    "repl",
+    "node",
+    "terminal",
+    "test"
+  ],
+  "author": "Nicholas Penree <nick@penree.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+<div id="term"></div>
+
+<script>
+function boot() {
+	$('#term').terminal('/api', {
+		height:500,
+		prompt: 'chocolat> ',
+		tabcompletion: true,
+		greetings: 'Welcome to the Chocolat Node REPL. Remember, with great power comes great responsiblity.\nBe safe, and have fun!\n\n'
+	});
+}
+$(document).ready(boot);
+</script>
